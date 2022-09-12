@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>HEPHEST | O lar dos preguiçosos</title>
+</head>
+<body>
+    <header>
+        <div class="NAVBAR">
+            <div class="black_name">
+                <img class="void" onclick="reload()" src="124585.png">
+                <button onclick="reload()"><h1>Hephest</h1></button>
+            </div>
+            <div class="others">
+                <button onclick="download()"><h2>Baixar</h2></button>
+                <button onclick="suport()"><h2>Suporte</h2></button>
+                <button onclick="blog()"><h2>Blog</h2></button>
+                <button onclick="protect()"><h2>Proteção</h2></button>
+            </div>
+            <div class="login">
+                <button onclick="back_to()"><h2>Voltar</h2></button>
+            </div>
+        </div> 
+        <div class="scene">
+            <div class="scene_box1">
+                <h3>Vamo, bora logo!...</h3>
+                <p>Para de perder tempo, e loga logo!!...</p>
+            </div>
+            <div class="download_area">
+                <div class="scene_box2">
+                    <form method="post" action="aniway" name="formulário">
+                        <input type="text" placeholder="Usuário" id="usuario" required autocomplete="off">
+                        <input type="password" placeholder="Senha" id="password" required autocomplete="off">
+                        <button>Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+<script>
+    function reload(){
+        window.location.href="phest.html";
+    }
+    function back_to(){
+        window.location.href="index.html";
+    }
+    function download(){
+            window.location.href="download.html"
+        }
+    function suport(){
+            window.location.href="suport.html"
+        }
+    function protect(){
+            window.location.href="protect.html"
+    }
+    function blog(){
+            window.location.href="blog.html"
+        }
+</script>
+</html>

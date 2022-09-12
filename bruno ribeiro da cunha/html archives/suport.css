@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Jose';
+    src: url('JosefinSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'silk';
+    src: url("Silkscreen-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: spartan;
+    src: url("LeagueSpartan-Bold.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* NAVBAR configs */
+header {
+    background-image: url(robert.gif);
+    background-size: cover;
+    display: flex;
+    background-color:transparent;
+    margin: 0;
+    width: 100%;
+    height: 950px;
+    flex-direction: column;
+}
+
+.NAVBAR {
+    display: flex;
+    background-color:transparent;
+    margin: 0;
+    width: 100%;
+    height: 130px;
+}
+.void {
+    margin-top: 12px;
+    height: 30px;
+}
+
+.black_name {
+    margin-top: 14px;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+}
+
+.black_name > button {
+    color: #ffffff;
+    font-family: jose;
+    height: 60px;
+    font-size: 13px;
+    display: flex;
+    border: none;
+    background-color: transparent;;
+}
+
+.others {
+    margin-top: 14px;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+}
+
+.others > button {
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: jose;
+    height: 60px;
+    font-size: 13px;
+    display: flex;
+    border: none;
+    background-color: transparent;;
+}
+
+.login {
+    margin-top: 14px;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+}
+
+.login > button {
+    justify-content: center;
+    color: #000000;
+    font-family: jose;
+    height: 55px;
+    width: 190px;
+    font-size: 13px;
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;;
+}
+
+.scene {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+.scene_box1 {
+    margin: 0%;
+    display: block;
+    width: 600px;
+}
+
+.scene_box1 > h3 {
+    color: #ffffff;
+    margin: 0;
+    margin-top:55px;
+    margin-left: 80px;
+    font-family: Jose;
+    font-size: 110px;
+}
+
+.scene_box1 > p {
+    color: #ffffff;
+    margin-top:4px;
+    margin-left: 80px;
+    font-family: silk;
+    font-size: 30px;
+}
+
+.download_area {
+    margin: 0%;
+    display: flex;
+    width: 600px;
+    height: 800px;
+}
+.scene_box2 {
+    align-items: center;
+    display: flex;
+    margin: 0%;
+    flex-direction: column;
+    width: 900px;
+}
+.scene_box2 > .btn_download {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Jose;
+    height: 55px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
